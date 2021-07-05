@@ -39,7 +39,7 @@ def close():
 def start_game(map):
     map.draw_map()
 
-def GAME():
+#def GAME():
     map = maps.Maps()
 
     welcome = interface.Label(700, 100, 400, 200, None, background)
@@ -54,7 +54,7 @@ def GAME():
     mandav = interface.Button(width - 300, height - 80, 300, 100, None, background)
     mandav.add_text("MANDAV", 60, "Fonts/arfmoochikncheez.ttf", (41, 41, 41))
 
-    while True:
+#    while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 close()
@@ -70,12 +70,12 @@ def GAME():
 
         display.fill(background)
 
-        start.draw()
-        exit.draw()
-        welcome.draw()
-        mandav.draw()
+#        start.draw()
+#        exit.draw()
+#        welcome.draw()
+#        mandav.draw()
 
-        pygame.display.update()
+#        pygame.display.update()
         clock.tick(60)
 
 GAME()
