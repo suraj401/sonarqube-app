@@ -2,5 +2,5 @@ projectKey=git
 serverUrl=http://192.168.0.114:9000
 serverVersion=8.9.1.44547
 dashboardUrl=http://192.168.0.114:9000/dashboard?id=git
-ceTaskId=AXp3XV1RIDdocMcDKU_E
-ceTaskUrl=http://192.168.0.114:9000/api/ce/task?id=AXp3XV1RIDdocMcDKU_E
+ceTaskId=AXp3a76NIDdocMcDKU_F
+ceTaskUrl=http://192.168.0.114:9000/api/ce/task?id=AXp3a76NIDdocMcDKU_F
