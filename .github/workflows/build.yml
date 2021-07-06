@@ -16,7 +16,7 @@ jobs:
         with:
           projectBaseDir: /home/suraj/sonarqube-app/
           args: >
-            -Dsonar.projectKey=git
+            -Dsonar.projectKey=Project-key
             -Dsonar.login=admin
             -Dsonar.password=neosoft@2021
         env:
